@@ -21,7 +21,7 @@ module.exports = {
   },
   entry: {
     app: PATHS.src,
-    lk:  `${PATHS.src}/lk.js` //дополнительная точка входа для примера
+    // lk:  `${PATHS.src}/lk.js` //дополнительная точка входа для примера
   },
   output: {
     filename: `${PATHS.assets}js/[name].[hash].js`,
