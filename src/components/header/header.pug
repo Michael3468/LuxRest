@@ -1,0 +1,42 @@
+header#header.header
+  .main-header
+    .container-fluid
+      .row
+        .col-lg-12
+          // bootstrap responsive header
+          // need to add 
+          // link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm', crossorigin='anonymous')
+
+          nav.navbar.navbar-light.navbar-expand-lg.fixed-top
+            a.navbar-brand(href='#')
+              img(src='/assets/img/logo.png', alt='Luxury Restaurant')
+            button.navbar-toggler(data-target='#my-nav', data-toggle='collapse')
+              span.navbar-toggler-icon
+            #my-nav.collapse.navbar-collapse
+              ul.nav.navbar-nav.mr-0.ml-auto
+                li.nav-item.menu__item.active
+                  a.nav-link(href='#')
+                    | home
+                    span.sr-only (current)
+                li.nav-item.menu__item
+                  a.nav-link(href='#') menu
+                li.nav-item.menu__item
+                  a.nav-link(href='#') reservation
+                li.nav-item.menu__item
+                  a.nav-link(href='#') recipe
+                li.nav-item.menu__item
+                  a.nav-link(href='#') contact
+                li.nav-item.menu__item.buttons.book-your-table-btn.custom-btn.d-flex.justify-content-center
+                  img.book-your-table-btn_img(src='/assets/img/order.png', alt='Book Your Table')
+                  a.nav-link(href='#') book your table
+          // bootstrap responsive header
+  //- .offer
+  //-   .container-fluid
+  //-     .row
+  //-       .col-lg-12
+  //-         .title
+  //-           h1.title__heading
+  //-             | Taste your fav dish
+  //-           p.title__desc
+  //-             | from 
+  //-             span luxury restaurant!
