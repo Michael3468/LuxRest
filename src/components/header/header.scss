@@ -11,11 +11,15 @@
 
 .main-header{
 	padding: 48px 0px 18px 74px;
-	width: 100%;
+  width: 100%;
 }
 .menu{
 	margin: 11px 0 0 6px;
 	width: 528px;
+}
+.navbar{
+  background-color: $default-color;
+  opacity: .9;
 }
 .nav-item{
 	text-align: center;
