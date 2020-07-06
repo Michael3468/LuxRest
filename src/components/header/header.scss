@@ -106,11 +106,16 @@
 	// -webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
 }
-@-webkit-keyframes slideme {
+@keyframes slideme {
 	0% { left: -30px; margin-left: 0px; }
 	30% { left: 110%; margin-left: 80px; }
 	100% { left: 110%; margin-left: 80px; } 
 }
+// @-webkit-keyframes slideme {
+// 	0% { left: -30px; margin-left: 0px; }
+// 	30% { left: 110%; margin-left: 80px; }
+// 	100% { left: 110%; margin-left: 80px; } 
+// }
 .book-your-table-btn{
 	background: linear-gradient(to right, #ff7102, #ffa802);
 	padding: 5px 10px 5px 20px;
