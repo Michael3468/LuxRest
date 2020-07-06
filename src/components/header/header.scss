@@ -37,27 +37,27 @@
 .buttons{
  border-radius: 10px;
  box-shadow: 20px 10px 53px -10px rgba(0,0,0,1);
- -webkit-box-shadow: 20px 10px 53px -10px rgba(0,0,0,1);
- -moz-box-shadow: 20px 10px 53px -10px rgba(0,0,0,1);
+//  -webkit-box-shadow: 20px 10px 53px -10px rgba(0,0,0,1);
+//  -moz-box-shadow: 20px 10px 53px -10px rgba(0,0,0,1);
 }
 .buttons:hover{
 	box-shadow: 20px 10px 53px -14px rgba(0,0,0,1);
- -webkit-box-shadow: 20px 10px 53px -14px rgba(0,0,0,1);
- -moz-box-shadow: 20px 10px 53px -14px rgba(0,0,0,1); 
+//  -webkit-box-shadow: 20px 10px 53px -14px rgba(0,0,0,1);
+//  -moz-box-shadow: 20px 10px 53px -14px rgba(0,0,0,1); 
 }
 .custom-btn{
-	display: -webkit-box;
-	display: -ms-flexbox;
+	// display: -webkit-box;
+	// display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-flow: row nowrap;
+	// -webkit-box-orient: horizontal;
+	// -webkit-box-direction: normal;
+	// -ms-flex-flow: row nowrap;
 	flex-flow: row nowrap;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
+	// -webkit-box-pack: center;
+	// -ms-flex-pack: center;
 	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
+	// -webkit-box-align: center;
+	// -ms-flex-align: center;
 	align-items: center;
 	width: 100%;
 	height: 50px;
@@ -73,7 +73,7 @@
 	cursor: pointer;
 	overflow: hidden;
 	background: #ffa802;
-	-webkit-transition: ease 0.3s;
+	// -webkit-transition: ease 0.3s;
 	transition: ease 0.3s;
 }
 .custom-btn:after {
@@ -91,19 +91,19 @@
 	left: -40px;
 	top: -150px;
 	z-index: 1;
-	-webkit-transform: rotate(45deg);
+	// -webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
-	-webkit-transition: all 0.1s;
+	// -webkit-transition: all 0.1s;
 	transition: all 0.1s;
-	-webkit-animation-name: slideme;
+	// -webkit-animation-name: slideme;
 	animation-name: slideme;
-	-webkit-animation-duration: 3s;
+	// -webkit-animation-duration: 3s;
 	animation-duration: 3s;
-	-webkit-animation-delay: 0.05s;
+	// -webkit-animation-delay: 0.05s;
 	animation-delay: 0.05s;
-	-webkit-animation-timing-function: ease-in-out;
+	// -webkit-animation-timing-function: ease-in-out;
 	animation-timing-function: ease-in-out;
-	-webkit-animation-iteration-count: infinite;
+	// -webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
 }
 @-webkit-keyframes slideme {
@@ -125,12 +125,4 @@
 	width: 21px;
 	height: 17px;
 	margin: 0px 5px 0 0; 
-}
-
-.book__icon{
-	background: url('/assets/img/order.png');
-	width: 21px;
-	height: 17px;
-	display: block;
-	margin: 0 12px 0 2px;
 }
