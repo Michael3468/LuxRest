@@ -1,0 +1,38 @@
+.call{
+	background: #edf1f3;
+  border-bottom: 1px solid #dde3e7;
+  width: 100%;
+  padding: 0 0;
+}
+.phone{
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 470px;
+}
+.phone__text{
+	background: url('/assets/img/phone.png') no-repeat left center;
+	padding: 12px 0 12px 56px;
+	color: #14141d;
+	font-size: 14px;
+	font-family: 'Sintony', sans-serif;
+	width: 180px;
+	margin: 29px 25px 26px 0;
+}
+.phone__text__call{
+	display: block;
+	line-height: 10px;
+	font-size: 14px;
+	padding: 0 0 15 0px;
+}
+.phone__text span{
+	font-size: 16px;
+	display: block;
+	margin: 5px 0 0 -1px;
+}
+.phone__digits{
+	font-size: 32px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin: 23px 0 0 0px;
+	color: #000;
+}
