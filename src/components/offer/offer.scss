@@ -1,32 +1,35 @@
 @import '../../assets/scss/utils/vars.scss';
 
+section.offer{
+  padding: 0 0;
+  height: 100%;
+}
 .offer{
-	background: url('/assets/img/first-bg.jpg') no-repeat center top;
-	/*-moz-background-size: 100%; /* Firefox 3.6+ */
-	/*-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-	/*-o-background-size: 100%; /* Opera 9.6+ */
-  background-size: 100%; /* Современные браузеры */
+  background: url("/assets/img/first-bg.jpg") no-repeat center center;
+  background-size: cover;
   width: 100%;
   margin-top: 17px;
-  height: auto;
   @media screen and (max-width: $desktopWidth){
     margin-top: 0px;
   }
 }
+.offer__img{
+  display: inline-block;
+  width: 100%;
+  background: no-repeat center top;
+  background-size: cover;
+}
 .offer__title{
-	padding: 216px 0 248px 73px;
+  padding: 216px 0 250px 73px;
   text-shadow: 5px 5px 4px black, 0 0 1em black;
   @media screen and (max-width: $tableWidth){
-    padding-top: 130px;
-    padding-left: 45px;
+    padding: 180px 0 210px 45px;
   }
   @media screen and (max-width: $phoneWidth){
-    padding-top: 80px;
-    padding-left: 30px;
+    padding: 110px 0 150px 45px;
   }
   @media screen and (max-width: $smPhoneWidth){
-    padding-top: 50px;
-    padding-left: 20px;
+    padding: 70px 0 100px 30px;
   }
 }
 .offer__title-heading{
