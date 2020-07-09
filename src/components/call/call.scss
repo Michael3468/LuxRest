@@ -33,19 +33,21 @@
 	@media screen and (max-width: $phoneWidth){
 		display: none;
 	}
-}
-.phone__text span{
-	font-size: 16px;
-	display: block;
-	margin: 5px 0 0 -1px;
+	span{
+		font-size: 16px;
+		display: block;
+		margin-top: 5px;
+	}
+	
 }
 .phone__digits{
+	font-family: 'Playfair Display', serif;
 	font-size: 32px;
 	line-height: 2rem;
-	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 	color: #000;
 	margin-left: 1em;
+	margin-top: -2px;
 	@media screen and (max-width: $phoneWidth){
 		font-size: 20px;
 		margin-top: 3px;
