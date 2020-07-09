@@ -1,3 +1,5 @@
+@import '../../assets/scss/utils/vars.scss';
+
 .call{
 	background: #edf1f3;
   border-bottom: 1px solid #dde3e7;
@@ -5,24 +7,32 @@
   padding: 0 0;
 }
 .phone{
+	display: flex;
+	justify-content: center;
+	width: 100%;
 	text-transform: uppercase;
 	font-weight: 700;
-	width: 470px;
-}
+}	
 .phone__text{
 	background: url('/assets/img/phone.png') no-repeat left center;
-	padding: 12px 0 12px 56px;
-	color: #14141d;
-	font-size: 14px;
 	font-family: 'Sintony', sans-serif;
+	font-size: 14px;
+	color: #14141d;
 	width: 180px;
-	margin: 29px 25px 26px 0;
+	height: 40px;
+	margin: auto 0;
+	@media screen and (max-width: $phoneWidth){
+		width: 40px;
+	}
 }
 .phone__text__call{
-	display: block;
 	line-height: 10px;
 	font-size: 14px;
-	padding: 0 0 15 0px;
+	padding-left: 50px;
+	margin-top: 7px;
+	@media screen and (max-width: $phoneWidth){
+		display: none;
+	}
 }
 .phone__text span{
 	font-size: 16px;
@@ -31,8 +41,16 @@
 }
 .phone__digits{
 	font-size: 32px;
+	line-height: 2rem;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
-	margin: 23px 0 0 0px;
 	color: #000;
+	margin-left: 1em;
+	@media screen and (max-width: $phoneWidth){
+		font-size: 20px;
+		margin-top: 3px;
+	}
+	@media screen and (max-width: $smPhoneWidth){
+		line-height: 1.5em;
+	}
 }
