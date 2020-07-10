@@ -1,2 +1,56 @@
 @import '../../assets/scss/utils/vars.scss';
 
+.about {
+  display: block;
+}
+
+.history {
+  margin: 114px 17px 120px 73px;
+}
+
+.history__title {
+  font-size: 35px;
+  // font-family: 'PlayfairDisplay-Bold';
+}
+
+.history__text {
+  color: black; //use variable
+  margin-top: 26px;
+  line-height: 1.9em;
+  font-size: 14px;
+  font-family: 'Sintony', sans-serif;
+}
+
+.history__button {
+  margin: 42px 0 0px 1px;
+  width: 150px;
+  height: 52px;
+  text-align: center;
+}
+
+.history__button span {
+  display: block;
+  margin: 2px 0 0 -1px;
+  letter-spacing: 0.02em;
+}
+
+.history a:hover {
+  text-decoration: none;
+}
+
+.food-images {
+  margin-top: 66px;
+}
+
+.food-images__item {
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.food-images-down {
+  margin-top: 116px;
+}
+
+.food-images-left {
+  margin-left: -37px;
+}
