@@ -79,21 +79,30 @@ section,
 
 
 //flexbox
-.flex-row{
+.d-flex{
   display: flex;
+}
+.flex-row{
   flex-direction: row;
 }
 .flex-row-reverse{
-  display: flex;
   flex-direction: row-reverse;
 }
 
 .flex-column{
-  display: flex;
   flex-direction: column;
 }
 .flex-column-reverse{
-  display: flex;
   flex-direction: column-reverse;
 }
 //flexbox
+
+// //общие классы
+// //about.scss
+// .p-text{
+//   color: $secondFontColor;
+//   margin-top: 26px;
+//   line-height: 1.9em;
+//   font-size: 14px;
+//   font-family: 'Sintony', sans-serif;
+// }
