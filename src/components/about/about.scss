@@ -42,11 +42,12 @@
   }
 }
 
+
 .food-images {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 5vw;
+  margin-top: 7vw;
   @media screen and (min-width: $smDesktopWidth){
     height: auto;
   }
