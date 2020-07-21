@@ -1,1 +1,71 @@
 @import '../../assets/scss/utils/vars.scss';
+
+.special{
+	display: block;
+	background: url('/assets/img/third-bg.jpg') no-repeat center top;
+	height: auto;
+	padding: 90px 0 128px 0;
+}
+.special__title{
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 18px;
+}
+.food{
+	text-align: center;
+	width: 569px;
+	box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+	background-color: #fff;
+}
+ .food-left{
+ 	float:right;
+ }
+ .food-right{
+ 	float: left;
+ }
+.food__title{
+	margin-top: 45px;
+	font-size: 26px;
+}
+.food__desc{
+	padding-top: 4px;
+	font-size: 14px;
+	line-height: 1.9em;
+	margin: 0 70px;
+}
+.food__details{
+	border-top: 1px solid #e1e1e1;
+	margin: 57px 48px 10px 45px;
+	padding: 19px 0 15px 0;
+}
+.food__del{
+	text-transform: uppercase;
+	color: #14141d;
+	font-weight: 700;
+	font-size: 13px;
+	width: 78px;
+	height: 39px;
+	text-align: left;
+	border-right: 1px solid #e1e1e1;
+}
+.food__del span{
+	color: #fe4c8d;
+}
+.food__phone{
+	font-size: 26px;
+	font-family: 'Playfair Display', serif;
+	margin-left: 24px;
+	letter-spacing: -0.03em;
+	color: #000;
+
+}
+.food__price{
+	margin: -3px 0 0 104px;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	color: #fea100;
+}
+.food__price sup{
+	font-size: 17px;
+}
