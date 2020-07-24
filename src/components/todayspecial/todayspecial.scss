@@ -18,6 +18,9 @@
   box-shadow: 0 10px 40px rgba(0,0,0,0.3);
   background-color: #fff;
   margin-bottom: 10%;
+  @media screen and (max-width: $smTableWidth){
+    width: 90%;
+  }
 }
 .food__img{
   width: 100%;
@@ -46,7 +49,7 @@
   padding-top: 4px;
   font-size: 14px;
   line-height: 1.9em;
-  margin: 0 70px;
+  margin: 0 10%;
 }
 .food__details{
   display: flex;
@@ -72,6 +75,9 @@
   font-size: 26px;
   font-family: 'Playfair Display', serif;
   color: #000;
+  @media screen and (max-width: $smTableWidth){
+    display: none;
+  }
 }
 .food__price{
   font-size: 30px;
