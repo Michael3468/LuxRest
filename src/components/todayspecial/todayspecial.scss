@@ -14,18 +14,32 @@
 }
 .food{
   text-align: center;
-  width: 569px;
+  width: 80%;
   box-shadow: 0 10px 40px rgba(0,0,0,0.3);
   background-color: #fff;
+  margin-bottom: 10%;
+}
+.food__img{
+  width: 100%;
 }
 .food-left{
-  float:right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  @media screen and (max-width: $smDesktopWidth){
+    align-items: center;
+  }
 }
 .food-right{
-  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  @media screen and (max-width: $smDesktopWidth){
+    align-items: center;
+  }
 }
 .food__title{
-  margin-top: 45px;
+  margin: 10% auto 5% auto;
   font-size: 26px;
 }
 .food__desc{
@@ -35,32 +49,31 @@
   margin: 0 70px;
 }
 .food__details{
+  display: flex;
+  justify-content: space-between;
   border-top: 1px solid #e1e1e1;
-  margin: 57px 48px 10px 45px;
-  padding: 19px 0 15px 0;
+  margin: 10% 10% 0 10%;
+  padding: 5% 0;
 }
-.food__del{
+.food__deliv{
+  text-align: left;
   text-transform: uppercase;
   color: #14141d;
   font-weight: 700;
   font-size: 13px;
   width: 78px;
   height: 39px;
-  text-align: left;
   border-right: 1px solid #e1e1e1;
 }
-.food__del span{
+.food__deliv span{
   color: #fe4c8d;
 }
 .food__phone{
   font-size: 26px;
   font-family: 'Playfair Display', serif;
-  margin-left: 24px;
-  letter-spacing: -0.03em;
   color: #000;
 }
 .food__price{
-  margin: -3px 0 0 104px;
   font-size: 30px;
   font-family: 'Playfair Display', serif;
   color: #fea100;
