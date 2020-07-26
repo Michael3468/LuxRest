@@ -2,7 +2,7 @@
 
 .special{
   display: block;
-  background: url('/assets/img/third-bg.jpg') no-repeat center top;
+  background: url('/assets/img/todayspecial-bg.jpg') no-repeat center top;
   height: auto;
   padding: 90px 0 128px 0;
 }
@@ -46,10 +46,11 @@
   font-size: 26px;
 }
 .food__desc{
-  padding-top: 4px;
+  font-family: Sintony-Bold;
   font-size: 14px;
   line-height: 1.9em;
   margin: 0 10%;
+  padding-top: 4px;
 }
 .food__details{
   display: flex;
@@ -67,23 +68,15 @@
   width: 78px;
   height: 39px;
   border-right: 1px solid #e1e1e1;
-}
-.food__deliv span{
-  color: #fe4c8d;
-}
-.food__phone{
-  font-size: 26px;
-  font-family: 'Playfair Display', serif;
-  color: #000;
-  @media screen and (max-width: $smTableWidth){
-    display: none;
+  span{
+    color: #fe4c8d;
   }
 }
 .food__price{
   font-size: 30px;
   font-family: 'Playfair Display', serif;
   color: #fea100;
-}
-.food__price sup{
-  font-size: 17px;
+  sup{
+    font-size: 17px;
+  }
 }
