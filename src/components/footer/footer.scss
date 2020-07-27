@@ -5,7 +5,7 @@
   color: #adb2b7;
   height: auto;
   padding-bottom: 10%;
-  font-size: 13px;
+  font-size: $secondFontSize;
   text-transform: uppercase;
   box-shadow: -4px -2px 47px 16px #000 inset;
 }
@@ -25,12 +25,10 @@
   height: 52px;
   border-radius: 10px;
   opacity: 0.8;
-//  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
-//  -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
-}
-.socials__item a:hover{
-  opacity: 1;
+  &:hover{
+    opacity: 1;
+  }
 }
 .socials__item-fb a{
   background: #3b5998 url('/assets/img/fb.png') no-repeat center center;
