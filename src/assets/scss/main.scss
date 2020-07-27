@@ -29,6 +29,10 @@ body{
   //сглаживание шрифтов (safari)-
 }
 
+h2{
+  font-size: 35px;
+}
+
 section,
 .section{
   position: relative;
@@ -53,7 +57,6 @@ section,
   height: 100%;
   background-color: $default-color;
 }
-
 .content-wrapper {
   display: flex;
   flex-direction: column;
@@ -96,13 +99,3 @@ section,
   flex-direction: column-reverse;
 }
 //flexbox
-
-// //общие классы
-// //about.scss
-// .p-text{
-//   color: $secondFontColor;
-//   margin-top: 26px;
-//   line-height: 1.9em;
-//   font-size: 14px;
-//   font-family: 'Sintony', sans-serif;
-// }
