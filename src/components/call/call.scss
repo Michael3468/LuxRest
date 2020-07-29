@@ -14,11 +14,10 @@
   text-transform: uppercase;
   font-weight: 700;
 }
-
 .phone__text {
   background: url('/assets/img/phone.png') no-repeat left center;
-  font-family: 'Sintony', sans-serif;
-  font-size: 14px;
+  font-family: $secondFont;
+  font-size: $secondFontSize;
   color: #14141d;
   width: 180px;
   height: 40px;
@@ -28,10 +27,9 @@
     width: 40px;
   }
 }
-
 .phone__text__call {
   line-height: 10px;
-  font-size: 14px;
+  font-size: $secondFontSize;
   padding-left: 50px;
   margin-top: 7px;
 
@@ -44,15 +42,14 @@
     display: block;
     margin-top: 5px;
   }
-
 }
 
 .phone__digits {
-  font-family: 'Playfair Display', serif;
+  font-family: $mainFont;
+  font-weight: 700;
   font-size: 32px;
   line-height: 2rem;
-  font-weight: 700;
-  color: #000;
+  color: $thrdFontColor;
   margin-left: 1em;
   margin-top: -2px;
 
