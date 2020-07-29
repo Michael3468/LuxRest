@@ -34,7 +34,7 @@ section.offer{
 }
 .offer__title-heading{
   font-size: 56px;
-	letter-spacing: -0.3px;
+  letter-spacing: -0.3px;
   color: $mainFontColor;
   @media screen and (max-width: $tableWidth){
     font-size: 40px;
@@ -47,11 +47,11 @@ section.offer{
   }
 }
 .offer__title-desc{
-	font-size: 40px;
-	color: $mainFontColor;
-	font-family: 'Playfair Display', serif;
-	line-height: 1em;
-	margin-left: 3px;
+  font-size: 40px;
+  color: $mainFontColor;
+  font-family: 'Playfair Display', serif;
+  line-height: 1em;
+  margin-left: 3px;
   letter-spacing: -0.2px;
   @media screen and (max-width: $tableWidth){
     font-size: 30px;
@@ -61,5 +61,5 @@ section.offer{
   }
 }
 .offer__title-desc span{
-	color: $primary-color;
+  color: $primary-color;
 }
