@@ -5,18 +5,17 @@
   background: url('/assets/img/todayspecial-bg.jpg') no-repeat center top;
   height: auto;
   padding: 10% 0 0;
+  text-align: center;
 }
 .special__title{
-  // font-size: 35px;
-  color: #fff;
-  text-align: center;
+  color: $mainFontColor;
   padding-bottom: 18px;
 }
 .food{
   text-align: center;
   width: 80%;
   box-shadow: 0 10px 40px rgba(0,0,0,0.3);
-  background-color: #fff;
+  background-color: $default-color;
   margin-bottom: 10%;
   @media screen and (max-width: $smTableWidth){
     width: 90%;
@@ -43,14 +42,13 @@
 }
 .food__title{
   margin: 10% auto 5% auto;
-  font-size: 26px;
+  font-size: $mainFontSize;
 }
 .food__desc{
-  font-family: Sintony-Bold;
-  font-size: 14px;
+  font-family: $secondFont;
+  font-size: $secondFontSize;
   line-height: 1.9em;
   margin: 0 10%;
-  padding-top: 4px;
 }
 .food__details{
   display: flex;
@@ -64,7 +62,7 @@
   text-transform: uppercase;
   color: #14141d;
   font-weight: 700;
-  font-size: 13px;
+  font-size: $secondFontSize;
   width: 78px;
   height: 39px;
   border-right: 1px solid #e1e1e1;
@@ -73,8 +71,8 @@
   }
 }
 .food__price{
-  font-size: 30px;
-  font-family: 'Playfair Display', serif;
+  font-size: $mainFontSize;
+  font-family: $mainFont;
   color: #fea100;
   sup{
     font-size: 17px;
