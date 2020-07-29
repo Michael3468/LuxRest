@@ -7,19 +7,20 @@
 
 .history {
   margin: 12vw 3vw 5vw 3vw;
+  text-align: center;
 }
 .history__title {
   display: flex;
   justify-content: center;
   font-size: 35px;
   @media screen and (max-width: $smPhoneWidth){
-    font-size: 25px;
+    font-size: $mainFontSize;
   }
 }
 .p-text {
   margin-top: 26px;
-  font-family: 'Sintony', sans-serif;
-  font-size: 14px;
+  font-family: $secondFont;
+  font-size: $secondFontSize;
   line-height: 1.9em;
   color: $secondFontColor;
 }
