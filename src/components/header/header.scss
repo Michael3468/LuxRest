@@ -13,24 +13,25 @@
 .navbar {
   background-color: $default-color;
   opacity: .9;
+  @media screen and (max-width: $smDesktopWidth){
+    opacity: .95;
+  }
 }
 
 .nav-item {
   text-align: center;
 }
-
 .nav-item:last-child {
   float: right;
   width: auto;
 }
 
 .menu__item {
-  font-family: 'Sintony-Bold';
+  font-family: $secondFont;
   font-weight: 700;
-  font-size: 14px;
+  font-size: $secondFontSize;
   padding-top: 5px;
 }
-
 .menu__item a {
   color: #2c465a;
   text-transform: uppercase;
@@ -43,7 +44,6 @@
   //  -webkit-box-shadow: 20px 10px 53px -10px rgba(0,0,0,1);
   //  -moz-box-shadow: 20px 10px 53px -10px rgba(0,0,0,1);
 }
-
 .buttons:hover {
   box-shadow: 20px 10px 53px -14px rgba(0, 0, 0, 1);
   //  -webkit-box-shadow: 20px 10px 53px -14px rgba(0,0,0,1);
@@ -70,14 +70,14 @@
   border: none;
   border-bottom: 2px solid #beb038;
   position: relative;
-  font-size: 14px;
-  font-weight: bold;
-  color: #000;
+  font-size: $secondFontSize;
+  font-weight: 700;
+  color: $thrdFontColor;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
   overflow: hidden;
-  background: #ffa802;
+  background: $primary-color;
   // -webkit-transition: ease 0.3s;
   transition: ease 0.3s;
 }
@@ -88,7 +88,7 @@
   width: 20px;
   height: 300px;
   margin-left: 60px;
-  background: #fff;
+  background: $default-color;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.7) 100%);
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.7) 100%);
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.7) 100%);
