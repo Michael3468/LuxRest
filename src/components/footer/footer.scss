@@ -39,15 +39,6 @@
 .socials__item-inst a{
   background: #dd4b39 url('/assets/img/inst.png') no-repeat center center;
 }
-.line-col{
-  @media screen and (max-width: $tableWidth){
-    display: none;
-  }
-}
-.line{
-  background: #52535e;
-  height: 1px;
-}
 .credits{
   font-family: $secondFont;
   text-align: center;
