@@ -12,13 +12,13 @@
 .history__title {
   display: flex;
   justify-content: center;
-  font-size: 35px;
+  font-size: $bigFontSize;
   @media screen and (max-width: $smPhoneWidth){
     font-size: $mainFontSize;
   }
 }
 .p-text {
-  margin-top: 26px;
+  margin: 10% 0;
   font-family: $secondFont;
   font-size: $secondFontSize;
   line-height: 1.9em;
@@ -57,7 +57,7 @@
   display: block;
   margin: 0 auto;
   width: 90%;
-  margin-bottom: 30px;
+  margin-bottom: 10%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
   height: 100%;
 }
