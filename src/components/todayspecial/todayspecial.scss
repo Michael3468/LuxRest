@@ -47,7 +47,7 @@
 .food__desc{
   font-family: $secondFont;
   font-size: $secondFontSize;
-  line-height: 1.9em;
+  line-height: 1.9rem;
   margin: 0 10%;
 }
 .food__details{
@@ -75,6 +75,6 @@
   font-family: $mainFont;
   color: #fea100;
   sup{
-    font-size: 17px;
+    font-size: .7em;
   }
 }
