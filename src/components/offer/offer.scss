@@ -37,27 +37,27 @@ section.offer{
   letter-spacing: -0.3px;
   color: $mainFontColor;
   @media screen and (max-width: $tableWidth){
-    font-size: 40px;
+    font-size: $titleFontSize;
   }
   @media screen and (max-width: $phoneWidth){
-    font-size: 30px;
+    font-size: $bigFontSize;
   }
   @media screen and (max-width: $smPhoneWidth){
-    font-size: 25px;
+    font-size: $mainFontSize;
   }
 }
 .offer__title-desc{
-  font-size: 40px;
+  font-size: $titleFontSize;
   color: $mainFontColor;
   font-family: $mainFont;
   line-height: 1em;
   margin-left: 3px;
   letter-spacing: -0.2px;
   @media screen and (max-width: $tableWidth){
-    font-size: 30px;
+    font-size: $bigFontSize;
   }
   @media screen and (max-width: $phoneWidth){
-    font-size: 20px;
+    font-size: $mainFontSize;
   }
 }
 .offer__title-desc span{
