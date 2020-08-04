@@ -14,7 +14,7 @@
 .food{
   text-align: center;
   width: 80%;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 40px $shadow-color;
   background-color: $default-color;
   margin-bottom: 10%;
   @media screen and (max-width: $smTableWidth){
@@ -73,7 +73,7 @@
 .food__price{
   font-size: $mainFontSize;
   font-family: $mainFont;
-  color: #fea100;
+  color: $primary-color;
   sup{
     font-size: .7em;
   }

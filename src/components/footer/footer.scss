@@ -8,7 +8,7 @@
   padding-bottom: 10%;
   font-size: $secondFontSize;
   text-transform: uppercase;
-  box-shadow: -4px -2px 47px 16px #000 inset;
+  box-shadow: -4px -2px 47px 16px $shadow-color inset;
 }
 .footer .container-fluid{
   padding: 0 10%;
