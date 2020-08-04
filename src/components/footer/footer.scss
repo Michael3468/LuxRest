@@ -1,4 +1,5 @@
 @import '../../assets/scss/utils/vars.scss';
+@import '../../components/footer/SocialsBlock/SocialsBlock.scss';
 
 .footer{
   background-color: #373844;
@@ -13,32 +14,6 @@
   padding: 0 10%;
 }
 
-.socials{
-  margin: 10% 0;
-}
-.socials__item{
-  margin: 0 5%;
-}
-.socials__item a{
-  display: block;
-  width: 52px;
-  height: 52px;
-  border-radius: 10px;
-  opacity: 0.8;
-  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
-  &:hover{
-    opacity: 1;
-  }
-}
-.socials__item-fb a{
-  background: #3b5998 url('/assets/img/fb.png') no-repeat center center;
-}
-.socials__item-tw a{
-  background: #55acee url('/assets/img/tw.png') no-repeat center center;
-}
-.socials__item-inst a{
-  background: #dd4b39 url('/assets/img/inst.png') no-repeat center center;
-}
 .credits{
   font-family: $secondFont;
   text-align: center;
