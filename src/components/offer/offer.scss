@@ -21,7 +21,7 @@ section.offer{
 }
 .offer__title{
   padding: 216px 0 250px 73px;
-  text-shadow: 5px 5px 4px black, 0 0 1em black;
+  text-shadow: 5px 5px 4px $shadow-color, 0 0 1em $shadow-color;
   @media screen and (max-width: $tableWidth){
     padding: 180px 0 210px 45px;
   }
