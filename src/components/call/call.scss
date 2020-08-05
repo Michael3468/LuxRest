@@ -12,11 +12,11 @@
   justify-content: center;
   width: 100%;
   text-transform: uppercase;
-  font-weight: 700;
 }
 .phone__img {
   background: url('/assets/img/phone.png') no-repeat left center;
   font-family: $secondFont;
+  font-weight: 700;
   font-size: $secondFontSize;
   color: #14141d;
   width: 180px;
