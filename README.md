@@ -1,3 +1,6 @@
+## Github pages
+https://whitedevilman.github.io/LuxRest/
+
 ## Build Setup:
 ```bash
 # Download repository:
